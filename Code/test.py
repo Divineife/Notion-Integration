@@ -6,8 +6,6 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-
-# Now you can access these environment variables in your code
 DATABASE_ID = os.getenv("DATABASE_ID")
 NOTION_TOKEN = os.getenv("NOTION_TOKEN")
 
